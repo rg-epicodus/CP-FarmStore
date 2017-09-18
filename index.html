@@ -1,14 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Landing Page Template With Flexbox</title>
     <link rel="stylesheet" href="build/css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="build/js/vendor.min.js"></script>
-    <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Urban Farm</title>
-  </head>
-  <body>
+		<script src="build/js/vendor.min.js"></script>
+		<script type="text/javascript" src="build/js/app.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-  </body>
+</head>
+
+<body>
+
+
+
+	<section class="hero">
+    <div id="header">
+      <a href="/" id="logo">Aimee's Garden</a>
+      <ul id="menu">
+        <li><a href="/"><span>Home</span></a></li>
+        <li><a href="/"><span>Tutorials</span></a></li>
+        <li><a href="/"><span>Articles</span></a></li>
+        <li><a href="/"><span>About me</span></a></li>
+        <li><a href="/"><span>Contact</span></a></li>
+      </ul>
+    </div>
+		<div class="background-image" style="background-image: url(img/hero.jpg);"></div>
+	</section>
+
+
+	<section class="our-work">
+		<h3 class="title">Some of our work</h3>
+		<p>Aimee's Garden designs each urban farm to spec, with options ranging from raised beds to rooftop farms.</p>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url(img/coast.jpg);"></li>
+			<li class="large" style="background-image: url(img/island.jpg);"></li>
+			<li class="large" style="background-image: url(img/balloon.jpg);"></li>
+			<li class="small" style="background-image: url(img/mountain.jpg);"></li>
+		</div>
+	</section>
+
+
+	<section class="features">
+		<h3 class="title">Features and services</h3>
+		<p>From backyard raised beds to rooftop farms on grocery stores, we’ve installed and continue to maintain urban farms of all shapes and sizes around the Portland area. </p>
+		<hr>
+
+		<ul class="grid">
+			<li>
+				<i class="fa fa-camera-retro"></i>
+				<h4>Consultation</h4>
+				<p>Our skilled team of horticulture and garden education experts provide the expertise to grow the highest yield possible for you, or teach you how to successfully grow for yourself.</p>
+			</li>
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Education</h4>
+				<p>Aimee's Garden staff are experienced and passionate organic farmers specialized in designing and maintaining urban farms for high production value and educational purposes.</p>
+			</li>
+			<li>
+				<i class="fa fa-newspaper-o"></i>
+				<h4>Maintenance</h4>
+				<p>Full maintenance services are available to clients looking to maximize yield in whatever space is available at their home or business, whether on rooftops, ground level, or using indoor growing systems.</p>
+			</li>
+		</div>
+	</section>
+
+
+	<section class="reviews">
+		<h3 class="title">What others say:</h3>
+
+		<p class="quote">Their focus on cus­tomer ser­vice is top rate and I know I can always count on them to assist me with any­thing I need. The team at Aimee's Garden has been awe­some to work with. They go above and beyond the call of duty.</p>
+		<p class="author">— Patrick Farrell</p>
+
+		<p class="quote">Aimee's Garden provides excel­lent ser­vice and qual­ity of prod­uct and has kept us happy at Casual Gamer Cafe for over 3 years.</p>
+		<p class="author">— George Smith</p>
+
+		<p class="quote">This is a com­pany that pro­vides qual­ity produce and excel­lent cus­tomer ser­vice while also valu­ing the well-​being of our staff. We have estab­lished a great work­ing rela­tion­ship with Aimee's Garden in help­ing to edu­cate our employ­ees about the nutrition avail­able to them through their food.</p>
+		<p class="author">— Kevin Blake</p>
+
+
+	</section>
+
+
+	<section class="contact">
+		<h3 class="title">Join our newsletter</h3>
+		<p>Sign up for our email list to get reflections from Aimee, event information and updates from the staff at Aimee's Garden.</p>
+		<hr>
+
+		<form>
+			<input type="email" placeholder="Email">
+			<a href="#" class="btn">Subscribe now</a>
+		</form>
+	</section>
+
+  <footer role="contentinfo">
+    <div class="container cl-effect-1" id="cl-effect-1">
+      <div class="row">
+        <div class="col-md-3">
+          <h6>Aimee's Garden, LLC.</h6>
+          <ul class="list-unstyled">
+            <li><a href="#">page2</a></li>
+            <li><a href="#">page3</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">page4</a></li>
+            <li><a href="#">page5</a></li>
+            <li><a href="#">page6</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>About Aimee's Garden, LLC.</h6>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">For More Stuff</a></li>
+            <li><a href="#">For Stuff</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>Contact us</h6>
+          <address>
+              <strong>Aimee's Garden, LLC.</strong><br>
+              123 SE Main St<br>
+              Portland, OR 97233<br>
+            </address>
+          <p><a href="mailto:aimeesgarden@gmail.com" class="btn btn-success">Contact us</a></p>
+        </div>
+        <div class="col-md-3">
+          <h6>Follow us</h6>
+          <ul class="list-unstyled">
+            <li class="facebook">
+              <i class="fa fa-facebook"></i>
+              <a class="external" href="https://www.facebook.com/aimeesgarden" target="_blank">Facebook</a>
+            </li>
+            <li class="twitter">
+              <i class="fa fa-twitter"></i>
+              <a class="external" href="https://twitter.com/aimeesgarden" target="_blank">Twitter</a>
+            </li>
+            <li class="linkedin">
+              <i class="fa fa-linkedin"></i>
+              <a class="external" href="https://www.linkedin.com/company/aimeesgarden" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p>© 2017 Aimee's Garden, LLC. – Love Life</p>
+    </div>
+  </footer>
+
+</body>
+
 </html>
